@@ -14,9 +14,9 @@ export class Hero{
         <div><label>name: </label><input [(ngModel)]="hero.name" placeholder="name"/></div>
 `,
 })
-export class AppComponent  { title = 'Tour of Heroes';hero = Hero; }
-
-hero : Hero = {
+export class AppComponent  { title = 'Tour of Heroes';hero : Hero = {
   id:1,
   name:'Windstorm'
-}
+}; }
+
+
